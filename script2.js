@@ -65,7 +65,7 @@ function loadData(){
     });
 
     const bg=document.querySelector('body');
-    bg.style.background=`url('${quizData[qNo].ans[4].img}')`
+    bg.style.backgroundImage=`url('${quizData[qNo].ans[4].img}')`
 }
 
 

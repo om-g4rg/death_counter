@@ -1,6 +1,8 @@
 body {
   background-color: black;
-  background-image: url("img15.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* transition: 0.3s ease-in-out; */
   display: flex;
   justify-content: center;
   align-items: center;
