@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  background-image: url("img15.jpeg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.area {
+  width: 90%;
+  height: 96vh;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  width: 95%;
+  margin: 0.7%;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.question {
+  height: 26vh;
+  background-color: rgba(0, 0, 0, 0.545);
+  color: white;
+  backdrop-filter: blur(0.2rem);
+  font-family: "Times New Roman", Times, serif;
+}
+.opt {
+  height: 15vh;
+  background-color: rgba(64, 64, 64, 0.537);
+  backdrop-filter: blur(0.2rem) brightness(75%);
+  color: white;
+}
